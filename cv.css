@@ -1,48 +1,7 @@
-*body{
-	background-image:;
-}
-
-
-.heading{
-	text-align: center;
-}
-
-
-.discription{ 
-	color: rgb(147, 48, 184);
-	text-align: center;
-	font-size: 30px;
-	border:10px solid purple;
-	padding: 10px 40px 10px 40px;
-        }
-#link,a{ 
-	   color: rgb(48, 145, 184);
-	    text-align: center;
-      font-size:40px;
-      font-height:1.5em;
-      border: 10px rgb(48, 145, 184);
-
-      
-        }
-
-
-         /*for the contact.css*/
- #attract
-{   
-	background-color: rgb(204, 139, 35);
-	width: 200px;
-	border: solid rgb(
-238, 250, 15
-);
-	margin: 0 600px 0 600px;
+*
+{
 
 }
-.class{
-	border-color: red;
-}
-       
-      
-/*for cv.css*/
 #basic
 { background-color: rgb(204, 139, 35);
 	/*coour picked from here*/
@@ -78,7 +37,3 @@
 	
 
 }
-          
-          
-
-
