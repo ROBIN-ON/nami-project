@@ -1,3 +1,9 @@
+
+/*this is for overall pages*/
+
+
+
+
 *body{
 	background-image:;
 }
@@ -27,6 +33,12 @@
 
 
          /*for the contact.css*/
+
+
+
+
+
+
  #attract
 {   
 	background-color: rgb(204, 139, 35);
@@ -43,6 +55,12 @@
        
       
 /*for cv.css*/
+   
+
+
+
+
+
 #basic
 { background-color: rgb(204, 139, 35);
 	/*coour picked from here*/
@@ -60,10 +78,6 @@
 	/*https://www.google.com/search?q=colour+picker&oq=colo&aqs=chrome.0.69i59j69i57j0i19l4j69i60l2.2456j0j7&sourceid=chrome&ie=UTF-8*/
 	color: rgb(113, 52, 235);
 	width: 20%;
-
-
-	
- 
 	
 }
 
@@ -75,9 +89,18 @@
 	width: 20%;
 	color: rgb(119, 35, 204);
     margin: 0 500px 0px 500px;
+
 	
 
 }
+ 
+.intro,h3,ul
+
+      { display: flex;
+      	flex-direction: column;
+      	
+
+      }
           
           
 
