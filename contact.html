@@ -3,12 +3,53 @@
 <head>
 	<title>my contact</title>
 	<link rel="stylesheet" href="contact.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style1.css">
 
 </head>
-<body>
-	    <!-- this is 2 div for the common link -->
-	    <div id="link">
+<body id="contact-body">
+
+
+	 <nav id="navbar">
+    <!-- this is logo -->
+   <div id="logo"> <a href="index.html"><img src="./Photos/logo.jpg" ></a></div>
+    <!-- this is for link section -->
+    <div id="nav-link">
+      <li><a href="index.html"> INDEX</a></li>
+      <li> <a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      <li>  <a href="CV.html">CV</a></li>
+      <li><a href="sitereport.html">SITE REPORT</a></li>
+    </div>
+
+
+  </nav>
+
+  <div id="attract">
+		<form class="form-1">
+			
+			<label for="name" class =" name"> Full Name; </label> <br>
+			<input type="text" name="name" id="name" placeholder="type name here" required=""> <br>
+			
+			<label for="email" class="name">email;</label> <br>
+            <input type="email" name="email" placeholder="type email here" required=""> <br>
+             
+           <label for="number" class="name">phoneno;</label><br> 
+           <input type="number" name="number" id="number" placeholder=" type number here" required=""> <br>
+
+           <label for="adress" class="name">adress;</label><br>
+           <input type="text" name="adress" placeholder="type adress here" required=""><br>
+          
+           <label >write some message;</label> <br>
+           <textarea  rows="5" cols="5" required="" id="text"> write some messsage </textarea> <br>
+           <input type="submit" class="submit-btn"name="submit the contact"> 
+
+            
+         
+             
+		</form>
+	</div>
+	    <!--  this is 2 div for the common link -->
+	   <!--  <div id="link">
      	<a href="index.html">index</a>
      	<a href="portfolio.html">portfolio</a>
      	<a href="contact.html">contact</a>
@@ -26,31 +67,7 @@
 
 
 
-	<div>
-		<form action="post" id="attract">
-			
-			<label for="name" class =" name"> Full Name; </label> <br>
-			<input type="text" name="name" id="name" placeholder="type name here" required=""> <br>
-			
-			<label for="email" class="name">email;</label> <br>
-            <input type="email" name="email" placeholder="type email here" required=""> <br>
-             
-           <label for="number" class="name">phoneno;</label><br> 
-           <input type="number" name="number" id="number" placeholder=" type number here" required=""> <br>
-
-           <label for="adress" class="name">adress;</label><br>
-           <input type="text" name="adress" placeholder="type adress here" required=""><br>
-          
-           <label >write some message;</label> <br>
-           <textarea  rows="5" cols="5" required="" id="text"> write some messsage </textarea> <br>
-           <input type="submit" name="submit the contact"> 
-
-            
-            
-
-             
-		</form>
-	</div>
+	-->
 
 </body>
 </html>

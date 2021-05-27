@@ -108,7 +108,99 @@
  padding: 20px;
  line-height: 1.5rem;
 }
+#placeholder{
+	padding: 30px;
+}
 
+
+/*this is for contact*/
+#contact-body{
+	background: #665960;
+}
+#attract
+{   
+	
+	display: flex;
+	justify-content: center;
+	
+}
+.class{
+	border-color: red;
+}
+.form-1{
+	width: 40%;
+	height: 83.5vh;
+	font-size: 20px;
+	background-color: #f5b942;
+	
+	border: solid rgb(
+238, 250, 15
+);
+	padding: 20px;
+	
+
+}
+.form-1 input,.form-1 textarea{
+	width: 100%;
+}
+.submit-btn{
+	padding: 15px;
+}
+.submit-btn:hover{
+	background-color:#32a89d;
+	color: white;
+}
+
+
+
+
+ /*this is foer the cv*/
+ #container-id{
+ 	background: #665960;
+ 	line-height: 1.8rem;
+ }
+#container-cv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	width: auto;
+	text-align: center;
+
+}
+.cv-img{
+	background-image: url('./Photos/rob.jpg');
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	border:1px solid red;
+	/*border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;*/
+	border-radius: 100px;
+
+
+}
+#cv-discription{
+	font-size: 20px;
+	line-height: 1.5rem;
+}
+#cv-background{
+	display:flex;
+	justify-content: space-around;
+}
+.contact-cv{
+	/*background-color: #32a89d;*/
+	color:white;
+	padding: 2px;
+	height: 300px;
+	width: 300px;
+	border:1px solid transparent;
+	margin-top: 82px;
+}
+li{
+	list-style: none;
+}
 
 
 
