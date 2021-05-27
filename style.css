@@ -1,7 +1,11 @@
 
 /*this is for overall pages*/
 
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 *body{
@@ -21,15 +25,51 @@
 	border:10px solid purple;
 	padding: 10px 40px 10px 40px;
         }
-#link,a{ 
-	   color: rgb(48, 145, 184);
-	    text-align: center;
+#link a{ 
+	  
+	    
       font-size:40px;
-      font-height:1.5em;
-      border: 10px rgb(48, 145, 184);
+      border: 1px  solid grey;
+      text-decoration:none;
+      padding: 3px;
 
-      
-        }
+
+       }
+
+/*#link a:hover{
+    background-color: rgb(20, 15, 124);
+     color: white;
+}*/
+  #link a:link{
+        color: green;
+       }
+
+      /* #link a:visted{
+        color: salmon;
+       }*/
+/*#link  a:visited{
+    background-color: salmon;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;        
+
 
 
          /*for the contact.css*/

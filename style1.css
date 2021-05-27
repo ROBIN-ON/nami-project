@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+#index-body{
+	background-image: url('./Photos/display.jpg');
+	background-size:  cover;
+
+
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+
+#navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 80px;
+	background-color: black;
+}
+#navbar #logo img{
+	width: 30%;
+	height: 80px
+}
+#nav-link{
+	display: flex;
+
+	/*justify-content: space-evenly;*/
+
+}
+#nav-link li{
+	list-style: none;
+}
+#nav-link li a{
+	text-decoration: none;
+	font-size: 25px;
+	padding: 20px;
+	color: white;
+}
+#showcase-header{
+	color: white;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	
+	height: 90vh;
+	
+}
+#showcase-content{
+	border:1px solid red;
+	width: 40%;
+	height: auto;
+	padding: 30px;
+	line-height: 2rem;
+}
+
+#showcase-content a{ 
+	text-decoration: none;
+	border: 1px solid red;
+	/*font-size: 20px;*/
+	padding: 13px;
+	color: #32a89d;
+}
+#showcase-content a:hover{
+	background-color:#32a89d;
+	color: white;
+}
+/*responsive code*/
+/*for smart phone*/
+/*@media(max-width: 500px){
+	#showcase-content{
+		background-color: red;
+		height: auto;
+	}
+
+}*/
+
+
+
+
+
+/*this is for portfolio css*/
+#container{
+	display: flex;
+	justify-content: center;
+
+}
+.container-1{
+	border: 1px solid rgb(168, 50, 78) ;
+	height: 700px;
+	width: 40%;
+}
+#photo img{
+	height: 470px;
+	width: 100%;
+}
+.discription{
+	padding: 20px;
+}
+
+ .para{
+ color:#32a89d;
+ padding: 20px;
+ line-height: 1.5rem;
+}
+
+
+
+
