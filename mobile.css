@@ -1,0 +1,57 @@
+@media (max-width:625px){
+	#navbar{
+		display: none;
+		
+	}
+	
+	#showcase-content{
+		width: 90%;
+		
+	}
+	#container{
+		display: flex;
+		flex-direction: column;
+
+	
+	}
+	.container-1{
+		
+		height: 750px;
+		width: 100%;
+	}
+	#photo img{
+		height: 470px;
+		width: 100%;
+	}
+
+
+	/* contact.html */
+
+	.form-1{
+		width: 100%;
+		height:auto;
+		
+	
+	}
+
+	/* cv */
+
+	#cv-background{
+		display:flex;
+		flex-direction: column;
+	}
+
+	.contact-cv{
+		background-color: #32a89d;
+		color:white;
+		padding: 20px 0;
+		height: auto;
+		width: 100%;
+		
+		margin-top: 2px;
+		text-align: center;
+	}
+
+	
+
+}

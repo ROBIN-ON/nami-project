@@ -3,6 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 
+
 }
 #index-body{
 	background-image: url('./Photos/display.jpg');
@@ -198,13 +199,31 @@ li{
 
 
 
+/*this is for the hemberg*/
+#toggle-icon{
+	background-color: white;
+	display: none;
+	width: 30px;
+
+}
+#hemberg{
+	display: none;
+}
+
+
+
 
 /*this is for responsive */
     @media (max-width:625px){
-	#navbar{
+	 #logo , #nav-link {
 		display: none;
+
 		
+	} 
+	#toggle-icon{
+		display: block;
 	}
+
 	
 	#showcase-content{
 		width: 90%;
@@ -253,7 +272,36 @@ li{
 		margin-top: 2px;
 		text-align: center;
 	}
+	#navbar{
+		padding: 0;
+	}
 
+	#nav-link {
+		
+		border: 1px solid white;
+		width: 100%;
+		height: 100vh;
+		position: fixed;
+		background-color: grey;
+		
+		/* flex-direction: column; */
+		/*justify-content: center;
+		align-items: center;*/
+
+
+	}
+	#nav-link li {
+		text-align: center;
+		border-bottom: 1px solid red;
+		font-size: 15px;
+	padding: 20px;
+	}
+   
+	 #hemberg:checked + div{
+		display: block;
+		
+	} 
 	
 
 }
+    
