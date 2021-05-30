@@ -79,7 +79,7 @@
 
 
 
-/*this is for portfolio css*/
+                            /*this is for portfolio css*/
 #container{
 	display: flex;
 	justify-content: center;
@@ -108,7 +108,7 @@
 }
 
 
-/*this is for contact*/
+                                  /*this is for contact*/
 #contact-body{
 	background: #665960;
 }
@@ -149,7 +149,7 @@
 
 
 
- /*this is foer the cv*/
+                               /*this is foer the cv*/
  #container-id{
  	background: #665960;
  	line-height: 1.8rem;
@@ -197,9 +197,74 @@ li{
 	list-style: none;
 }
 
+                                       /*this is for the sitereport*/
 
+     
+     #site-1
+     {
+     	color: #32a89d;
 
-/*this is for the hemberg*/
+     	
+     	width: 100%;
+     	height: 80vh;
+     	font-size: 20px;
+     	display: flex;
+     	flex-direction: column;
+     justify-content: center;
+     align-items: center;
+       
+
+     	
+     	
+
+     }    
+     .site-para{
+     	 width: 40%;
+     }
+   /*  #site-head{
+     	border-bottom: white;
+     } 
+     .site-para{
+     	margin: 8px;
+     	padding: 20px;
+     	text-align: center;
+
+     }    */                          	
+     #image-valid{
+      display: flex;
+      flex-direction: column;
+      color: white;
+      justify-content: center;
+      align-items: center;
+
+     }
+    .myimage{
+    	height: 500px;
+    	width: 50%;
+    	margin: 10px;
+    	/*justify-content: center;
+    	align-items: center;*/
+    	
+    }
+    /*.refer{
+    	text-align: center;*/
+    #space-site{
+    	margin: 20px;
+    }
+    }
+    .refer{
+    	text-align: center;
+    	color: white;
+
+    }
+    #header-site{
+    	text-align: center;
+    	color: white;
+    	padding: 10px;
+    	margin: 20px;
+    }
+
+                                        /*this is for the hemberg*/
 #toggle-icon{
 	background-color: white;
 	display: none;
@@ -213,7 +278,7 @@ li{
 
 
 
-/*this is for responsive */
+                                      /*this is for responsive */
     @media (max-width:625px){
 	 #logo , #nav-link {
 		display: none;
