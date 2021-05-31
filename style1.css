@@ -31,6 +31,9 @@
 	/*justify-content: space-evenly;*/
 
 }
+#nav-link a:hover{
+	color: red;
+}
 #nav-link li{
 	list-style: none;
 }
@@ -122,6 +125,9 @@
 .class{
 	border-color: red;
 }
+.form-1:hover{
+	background-color: #d188c5;
+}
 .form-1{
 	width: 40%;
 	height: 83.5vh;
@@ -132,6 +138,9 @@
 238, 250, 15
 );
 	padding: 20px;
+	transition-property: background-color;
+	transition-duration: 2s;
+	transition-timing-function: ease-in-out;
 	
 
 }
@@ -172,17 +181,26 @@
 	border:1px solid red;
 	/*border-top-left-radius: 20px;
 	border-bottom-right-radius: 20px;*/
-	border-radius: 100px;
+	
+	transition: all 3s ;
 
+}
 
+.cv-img:hover{
+	border-radius: 50%;
+	transform: scale(1.1);
 }
 #cv-discription{
 	font-size: 20px;
 	line-height: 1.5rem;
+	margin-top:20px;
 }
 #cv-background{
 	display:flex;
 	justify-content: space-around;
+
+transition-property: background-colour;
+	transition-duration: 2s;
 }
 .contact-cv{
 	/*background-color: #32a89d;*/
@@ -192,10 +210,24 @@
 	width: 300px;
 	border:1px solid transparent;
 	margin-top: 82px;
+	
+
+/*#cv-background:hover{
+	
+	color: black;*/
+
 }
+.contact-cv:hover{
+	
+	color:black;
+
+}
+	
+
 li{
 	list-style: none;
 }
+
 
                                        /*this is for the sitereport*/
 
@@ -237,6 +269,10 @@ li{
       justify-content: center;
       align-items: center;
 
+     }
+     #valid-site{
+     	color: white;
+     	text-align: center;
      }
     .myimage{
     	height: 500px;
@@ -321,6 +357,9 @@ li{
 	}
 
 	/* cv */
+	.cv-img{
+		border-radius: 50%;
+	}
 
 	#cv-background{
 		display:flex;
@@ -369,4 +408,42 @@ li{
 	
 
 }
+
+/*site report responsive*/
+ #site-1
+     {
+     	color: #32a89d;
+
+     	
+     	
+     	display: block;
+     	height: auto;
+
+     /*	flex-direction: column;
+     justify-content: center;
+     align-items: center;*/	
+
+     } 
+      .site-para{
+     	 width: 100%;
+     	 padding: 10px;
+     	
+     }  
+     #header-site{
+    	text-align: none;
+    	
+    	padding: 8px;
+    	margin: 10px;
+    	font-size: 10px;
+    	height: auto;
+    } 
+
+    .myimage{
+    	height:auto;
+    	width: 100%;
+    	margin: 10px;
+    	
+    	
+    }
+
     
